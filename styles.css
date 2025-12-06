@@ -58,4 +58,16 @@ ul il {
     margin: 6px 0;
     border-radius: 4px;
 }
-@media (max-width: 768px) /*adjust grid for mobile*/
+@media (max-width: 768px) {
+    header {
+        font-size: 1.5rem;
+    }
+ p {
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+ .project-container {
+        padding: 15px;
+        gap: 15px;
+    }
